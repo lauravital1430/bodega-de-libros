@@ -4,9 +4,13 @@
 * {
   font-family: Montserrat;
 }
-
 @property --naranja {
   syntax: "<color>";
   inherits: true;
   initial-value: #F48222;
+}
+@media(min-width:768px){
+body{
+	background-color: #d91d1d;
+}
 }
