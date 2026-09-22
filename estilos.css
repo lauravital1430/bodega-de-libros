@@ -14,3 +14,38 @@ body{
 	background-color: #d91d1d;
 }
 }
+
+#valores{
+    width: 100%;
+    height: auto;
+    background-color: var(--naranja);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+.titulo{
+    width: 80%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 3px solid white;
+}
+.valor{
+    width: 45%;
+    display: flex;
+    padding-right: 5px;
+    
+}
+.valor img{
+    width: 70px;
+    margin: 5px;
+}
+.infoV{
+    margin: 0 auto;
+}
+.infoV h3{
+    color: white;
+}
