@@ -9,9 +9,21 @@
   inherits: true;
   initial-value: #F48222;
 }
-@media(min-width:768px){
-body{
-	background-color: #d91d1d;
+@media(max-width:768px){
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    color: var(--naranja);
+}
+.buscador-input{
+    border: solid 1px var(--naranja);
+    height: 27px;
+    width: 30%;
+    border-radius: 10px;
+    color: var(--naranja);
 }
 }
 
