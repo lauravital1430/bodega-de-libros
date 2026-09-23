@@ -154,6 +154,7 @@ footer ul {
     left: 50%;
     margin-left: 10px;
     transform: translateX(-50%);
+    margin-bottom: 20px;
 }
 #info-cont h2, h3{
     color: var(--naranja);
