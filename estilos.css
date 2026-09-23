@@ -109,39 +109,36 @@ footer ul {
 
 #valores{
     width: 100%;
-    height: auto;
     background-color: var(--naranja);
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 15px;
 }
 .titulo{
     width: 80%;
+    grid-column: 1 / 3;
     color: white;
     text-align: center;
-    align-items: center;
     margin: 0 auto;
     border-bottom: 3px solid white;
 }
 .valor{
-    width: 90%;
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 20px;
-    
 }
 .valor img{
-    width: 70px;
-    margin: 5px;
+    width: 60px;
+    flex-shrink: 0;
 }
 .infoV{
-    margin-left: 10px;
+    margin: 0;
 }
 .infoV h3{
     color: white;
+    margin: 0;
 }
 #novedades{
     width: 100%;
