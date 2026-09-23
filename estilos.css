@@ -25,6 +25,77 @@ nav{
     border-radius: 10px;
     color: var(--naranja);
 }
+/* cuerpo */
+
+
+/* Final del cuerpo */
+
+/* Footer */
+footer {
+    background-color: var(--naranja);
+    color: white;
+    padding: 35px 25px;
+    
+}
+footer > section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footlogo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+.footlogo img {
+    width: 150px;
+}
+.footlogo small {
+    font-size: 13px;
+    font-style: italic;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footmenu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.footmenu li {
+    font-size: 14px;
+    text-decoration: underline;
+}
+.footredes ul {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.footredes li {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 14px;
+}
+.footredes img {
+    width: 25px;
+    height: 25px;
+}
+.ElTextoLargo {
+    margin-top: 30px;
+}
+.ElTextoLargo small {
+    display: block;
+    font-size: 9px;
+    line-height: 1.15;
+    font-style: italic;
+    text-align: justify;
+}
+/* Final del footer*/ 
+
 }
 
 #valores{
@@ -108,69 +179,4 @@ input[type="button"]{
     font-weight: bold;
 }
 
-/* FOOTER */
-footer {
-    background-color: var(--naranja);
-    color: white;
-    padding: 35px 25px;
-    
-}
-footer > section {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-.footlogo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
-}
-.footlogo img {
-    width: 150px;
-}
-.footlogo small {
-    font-size: 13px;
-    font-style: italic;
-}
-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.footmenu ul {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-}
-.footmenu li {
-    font-size: 14px;
-    text-decoration: underline;
-}
-.footredes ul {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-}
-.footredes li {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    font-size: 14px;
-}
-.footredes img {
-    width: 25px;
-    height: 25px;
-}
-.ElTextoLargo {
-    margin-top: 30px;
-}
-.ElTextoLargo small {
-    display: block;
-    font-size: 9px;
-    line-height: 1.15;
-    font-style: italic;
-    text-align: justify;
-}
-/* Final del footer*/ 
 
