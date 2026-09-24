@@ -83,8 +83,6 @@ nav {
     display: inline-block;
 }
 
-
-
 .icono-login {
     height: 40px;
     width: auto;
@@ -474,7 +472,7 @@ input[type="button"] {
     font-weight: bold;
 }
 
-@media(min-width:768px) {
+@media(min-width:768px) AND (max-width:1024px) {
 
     /*libros*/
     #libros {
@@ -570,7 +568,7 @@ input[type="button"] {
     }
 }
 
-@media(min-width:480px) {
+@media(min-width:480px) AND (max-width:767px) {
     nav {
         height: 50px;
         width: 100%;
