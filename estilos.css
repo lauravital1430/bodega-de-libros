@@ -475,6 +475,7 @@ input[type="button"] {
 }
 
 @media(min-width:768px) {
+
     /*libros*/
     #libros {
         justify-content: center;
@@ -568,7 +569,8 @@ input[type="button"] {
         grid-row: 3;
     }
 }
-@media(max-width:768px){
+
+@media(min-width:480px) {
     nav {
         height: 50px;
         width: 100%;
@@ -661,8 +663,6 @@ input[type="button"] {
         height: 435px;
         width: auto;
         position: relative;
-
-
     }
 
     .hero-img {
