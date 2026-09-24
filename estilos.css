@@ -103,8 +103,111 @@ footer ul {
 }
 
 /* Final del footer*/ 
+}
 
+/*Libros*/
 
+#libros{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+#libros h2{
+    padding-bottom: 30px;
+    font-size: 25px;
+    color: var(--naranja);
+}
+.carrusel{
+    width: 380px;
+    display: flex;
+    margin: 0 auto;
+    overflow: auto;
+    scroll-behavior: smooth;
+    gap: 2.4rem;
+    anchor-name: --carrusel;
+    scroll-snap-type: x mandatory;
+}
+.carrusel::-webkit-scrollbar{
+display: none;
+}
+.carrusel::scroll-button(left), .carrusel::scroll-button(right){
+    content: "←";
+    border: none;
+    background-color: var(--naranja);
+    font-size: 1.2rem;
+    color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding-bottom: .1rem;
+    cursor: pointer;
+    position: fixed;
+    position-anchor: --carrusel;
+    position-area: left center ;
+    margin-bottom: 30px;
+    translate: -10%;
+}
+.carrusel::scroll-button(right){
+    content: "→";
+    position-area: right center;
+    translate: 10%;
+}
+.card{
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    display: block;
+    width: 105px;
+}
+.card a{
+    color: var(--naranja);
+}
+
+/*Nosotros*/
+
+#Nosotros{ 
+    width: 512px;
+    padding-top: 20px;
+    color: var(--naranja);
+    margin: 0 auto;
+}
+
+#Nosotros p{
+    color: #FEFEFE;
+}
+#Nosotros img{
+    opacity: 30%;
+}
+.ta{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    color: #FEFEFE;
+    font-size: 25px;
+    background-color: var(--naranja);
+    padding-top: 20px;
+    padding-bottom: -13px;
+}
+.tar h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--naranja);
+}
+.tar p{
+    padding-top: 15px;
+}
+.sec{
+    background-color: black;
+}
+
+.tex{
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    padding: 20px;
+    z-index: 100;
+    position: absolute;
 }
 
 #valores{
@@ -188,4 +291,89 @@ input[type="button"]{
     font-weight: bold;
 }
 
+@media(min-width:768px){
+/*libros*/
+#libros{
+    justify-content: center;
+}
+.carrusel{
+    width: 1000px ;
+    justify-content: center;
+    overflow: hidden;
+}
+.carrusel::scroll-button(left), .carrusel::scroll-button(right){
+    display: none;
+}
+#libros img{
+    width: 120%;
+}
+.ti h2{
+    text-decoration: underline;
+    text-decoration-color: var(--naranja);       
+    text-decoration-thickness: 4px;      
+    text-underline-offset: 8px;  
+}
 
+/*nosotros*/
+
+#Nosotros{
+    width: 80%;
+}
+#Nosotros p{
+    color: black;
+}
+#Nosotros img{
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+}
+.tex{
+    position: relative;
+    width: auto;
+}
+.tar{
+    height: 100%;
+}
+.sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FEFEFE;
+    margin: 0 auto;
+}
+
+    .tar{
+        display: contents;
+    }
+
+    .tar:nth-child(1) .tex{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .tar:nth-child(1) img{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .tar:nth-child(2) .tex{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .tar:nth-child(2) img{
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .tar:nth-child(3) .tex{
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .tar:nth-child(3) img{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+   
+}
