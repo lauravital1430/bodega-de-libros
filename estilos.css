@@ -670,7 +670,9 @@ input[type="button"] {
     }
 
     .hero-img img {
-        margin: auto
+         height: 100%;
+        margin: auto;
+        display: block;
     }
 
     .hero-absolute {
