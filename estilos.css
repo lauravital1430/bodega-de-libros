@@ -581,6 +581,38 @@ footer ul {
     .hero-flecha {
         height: 60px;
     }
+/*Cuerpo*/
+
+
+
+
+/*Fin del cuerpo*/
+
+/*FOOTER*/
+
+footer {
+        padding: 30px 28px;
+    }
+
+    footer section {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr;
+        gap: 40px;
+        align-items: start;
+    }
+
+    .footmenu li {
+        margin-bottom: 14px;
+    }
+
+    .ElTextoLargo {
+        margin-top: 20px;
+    }
+
+
+/*Fin del footer*/
+
+
 }
 
 /* Escritorio */
