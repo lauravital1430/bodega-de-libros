@@ -590,24 +590,24 @@ footer ul {
 
 /*FOOTER*/
 
-footer {
-        padding: 30px 28px;
-    }
+    footer {
+            padding: 30px 28px;
+        }
 
-    footer section {
-        display: grid;
-        grid-template-columns: 1.5fr 1fr 1fr;
-        gap: 40px;
-        align-items: start;
-    }
+        footer section {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr;
+            gap: 40px;
+            align-items: start;
+        }
 
-    .footmenu li {
-        margin-bottom: 14px;
-    }
+        .footmenu li {
+            margin-bottom: 14px;
+        }
 
-    .ElTextoLargo {
-        margin-top: 20px;
-    }
+        .ElTextoLargo {
+            margin-top: 20px;
+        }
 
 
 /*Fin del footer*/
@@ -667,4 +667,29 @@ footer {
     .hero-flecha {
         height: 137px;
     }
+
+    /*FOOTER*/
+
+    footer {
+            padding: 30px 28px;
+        }
+
+        footer section {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr;
+            gap: 40px;
+            align-items: start;
+        }
+
+        .footmenu li {
+            margin-bottom: 14px;
+        }
+
+        .ElTextoLargo {
+            margin-top: 20px;
+        }
+
+
+/*Fin del footer*/
+
 }
