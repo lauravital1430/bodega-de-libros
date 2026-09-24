@@ -10,7 +10,7 @@
     inherits: true;
     initial-value: #F48222;
 }
-
+@media (min-width: 1024px){
 /* cuerpo */
 nav {
     height: 50px;
@@ -471,8 +471,8 @@ input[type="button"] {
     color: white;
     font-weight: bold;
 }
-
-@media(min-width:768px) AND (max-width:1024px) {
+}
+@media(min-width:768px) and (max-width:1024px) {
 
     /*libros*/
     #libros {
@@ -568,7 +568,7 @@ input[type="button"] {
     }
 }
 
-@media(min-width:480px) AND (max-width:767px) {
+@media(min-width:480px) and (max-width:768px) {
     nav {
         height: 50px;
         width: 100%;
