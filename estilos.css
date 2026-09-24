@@ -10,7 +10,9 @@
     inherits: true;
     initial-value: #F48222;
 }
-
+body{
+    width: fit-content;
+}
 nav {
     height: 50px;
     width: 100%;
