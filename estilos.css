@@ -931,7 +931,8 @@ footer ul {
         grid-column: 1;
         grid-row: 3;
     }
-
+.ta{
+    height: 150px;}
 
     /*valores*/
     #valores {
