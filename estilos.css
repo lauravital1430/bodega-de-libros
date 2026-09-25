@@ -187,7 +187,7 @@ nav {
 
 #libros h2 {
     font-family: 'Google Sans Flex';
-    padding-bottom: 30px;
+    padding-bottom: 3rem;
     font-size: 25px;
     color: var(--naranja);
 }
@@ -248,6 +248,7 @@ nav {
 #Nosotros {
     width: 512px;
     padding-top: 20px;
+    font-family: 'Google Sans Flex';
     color: var(--naranja);
     margin: 0 auto;
 }
@@ -274,7 +275,7 @@ nav {
 
 .tar h2 {
     font-family: 'Google Sans Flex';
-    font-size: 20px;
+    font-size: 2rem;
     padding-bottom: 10px;
     border-bottom: 3px solid var(--naranja);
 }
