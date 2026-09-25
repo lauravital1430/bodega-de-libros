@@ -186,6 +186,7 @@ nav {
 }
 
 #libros h2 {
+    font-family: 'Google Sans Flex';
     padding-bottom: 30px;
     font-size: 25px;
     color: var(--naranja);
@@ -272,6 +273,7 @@ nav {
 }
 
 .tar h2 {
+    font-family: 'Google Sans Flex';
     font-size: 20px;
     padding-bottom: 10px;
     border-bottom: 3px solid var(--naranja);
@@ -694,6 +696,7 @@ footer ul {
     width: 120%;
 }
 .ti h2{
+
     text-decoration: underline;
     text-decoration-color: var(--naranja);       
     text-decoration-thickness: 4px;      
