@@ -125,7 +125,7 @@ nav {
 }
 
 .hero-absolute {
-    width: 60%;
+    width: 60vw;
     height: 50%;
     position: absolute;
     left: 50%;
