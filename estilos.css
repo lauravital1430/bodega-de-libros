@@ -332,6 +332,7 @@ nav {
 }
 
 .infoV h3 {
+    font-size: 1.2rem;
     color: white;
     margin: 0;
 }
@@ -364,11 +365,15 @@ nav {
 
 #info-cont h2,
 #info-cont h3 {
+    font-size: 1.5rem;
     color: var(--naranja);
+    padding: 10px;
 }
 
 #info-cont p {
     color: white;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 input[type="email"] {
