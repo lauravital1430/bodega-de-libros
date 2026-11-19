@@ -15,20 +15,21 @@ body{
     width: fit-content;
     margin: 0 auto;
 }
-
 .aviso-cookies {
+    
     font-family: "Inter";
     width: 487px;
-    height: 190px;
+        box-sizing: border-box;
     position: fixed;
     bottom: 5vh;
     left: 5vw;
     background-color: white;
     filter: drop-shadow(-15px 15px #D9D9D9);
     padding: 30px;
-    z-index: 100;
+    z-index: 200;
     transition: .3s;
 }
+
 .aviso-cookies:hover{
     transform: scale(1.01);
 }
@@ -43,6 +44,7 @@ body{
 .aviso p{
     font-size: 10pt;
     position: inline-block;
+    margin: 20px 0;
 }
 .aviso a{
     font-size: 10pt;
